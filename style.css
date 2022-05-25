@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+.bigtext {
+    font-family: 'Comfortaa', 'Times New Roman', cursive;
+    font-size: 40px;
+    margin: 30px;
+    text-shadow: 9px 9px 12.6px black;
+}
+.subheading {
+    font-family: 'Comfortaa', 'Times New Roman', cursive;
+    font-size: 60px;
+    margin: 30px;
+    text-shadow: 9px 9px 12.6px black;
+}
+.smalltext {
+    font-family: 'Comfortaa', 'Times New Roman', cursive;
+    font-size: 12px;
+    margin: 10px;
+}
+.caption {
+    font-family: 'Comfortaa', 'Times New Roman', cursive;
+    font-size: 8px;
+    margin: 10px;
+}
+div {
+    display: flex;
+}

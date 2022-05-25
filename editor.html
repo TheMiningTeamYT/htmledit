@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>htmledit</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+            <div style="flex-direction: row; justify-content: center;">
+            <div style="flex-direction: column;">
+                <textarea id="htmlArea" class="smalltext" style="width: 30vw; height: 600px; margin: 0; overflow: scroll; white-space: pre;" placeholder="Type here!"></textarea>
+                <div style="flex-direction: row; width: 100%;">
+                    <div><button id="submitHTML" class="smalltext">Try it!</button></div>
+                    <div><button id="download" class="smalltext">Download your <br>HTML.</button></div>
+                    <div style="width: 150px; height: 120px; justify-content: flex-start; text-align: center; background-color: #fcfcfc; border: 1px solid #aaa; border-radius: 5px; margin: 5px; flex-direction: column;">
+                        <p class="smalltext">Upload an HTML File!</p>
+                        <div>
+                            <input id="upload-HTML-files" type="file">
+                        </div>
+                        <button id="upload-HTML-button">Upload HTML.</button>
+                    </div>
+                </div>
+            </div>
+            <iframe id="htmlIframe" src="iframe.html" style="width: 60vw; height: 600px;" allowfullscreen></iframe>
+            <script src="main.js"></script>
+        </div>
+    </body>
+</html>
